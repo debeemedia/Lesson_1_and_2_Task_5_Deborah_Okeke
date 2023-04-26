@@ -50,3 +50,100 @@ table {
 
 
 /* Write your css below here */
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	padding: 20px;
+	font-size: 1.2em;
+	line-height: 1.2em;
+}
+
+.container h1 {
+	font-size: 1.3em;
+	margin-bottom: 10px;
+	text-align: center;
+	color: #473c02
+}
+
+.container p {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.container .media {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 40px;
+	flex-wrap: wrap;
+}
+
+.container img {
+	height: 350px;
+	margin-right: 10px;
+	
+}
+
+.container video {
+	width: 600px;
+	margin-top: 10px;
+}
+
+.container table {
+	padding: 20px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 0.9em;
+}
+
+.container table caption {
+	font-style: oblique;
+	margin-bottom: 10px;
+	color: #473c02
+}
+
+.container table tr {
+	border: 2px solid #473c02;
+	padding: 5px;
+}
+
+.container table tr td {
+	border: 1px solid #473c02;
+	padding: 10px;
+}
+
+.container a {
+	text-decoration: none;
+	color: #ffff;
+	background-color: #473c02;
+	border-radius: 15px;
+	padding: 10px;
+	width: 250px;
+	display: flex;
+	margin-right: auto;
+	margin-left: auto;
+	justify-content: center;
+	margin-bottom: 70px;
+}
+
+.container a:hover, .container a:active {
+	color: #241e01;
+	background-color: #d5ba1c;
+}
+
+.container a:active {
+	position: relative;
+	top: 3px;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+}
+
+footer span {
+	font-size: 0.8em;
+}
